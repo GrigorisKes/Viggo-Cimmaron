@@ -1,0 +1,258 @@
+body{
+  background-color: black;
+}
+
+header{
+  background-color: black;
+}
+
+h1{
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  color: white;
+}
+
+#vigo{
+  padding: 20px;
+  color: white;
+}
+
+#reach {
+  float: right;
+  color:white;
+  border: 2px solid white;
+  border-radius: 25px;
+  text-align: center;
+  border-radius: 25px;
+  background: black;
+  padding-top: 0px;
+  width: 150px;
+  height: 40px;
+}
+
+img{
+  width:100%;
+}
+
+#image1{
+  padding: 30px;
+  background-color: black;
+}
+
+.about{
+  background-color: white;
+}
+
+.about h3{
+  font-size: 20px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.about h2{
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.about p{
+  padding-top: 30px;
+}
+
+.about img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.experience{
+  display: flex;
+  justify-content: space-between;
+  background-color:#8FBC8F;
+}
+
+.experience h2{
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.left{
+  padding: 40px;
+  text-align: left;
+}
+
+
+.right{
+  padding: 150px;
+  padding-top: 40px;
+  text-align: left;
+}
+
+.education{
+  background: black;
+}
+
+.education h2{
+  color:white;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 50px;
+}
+.education h3{
+  font-family: serif;
+  font-size: 20px;
+  padding-left: 50px;
+  color:white;
+}
+
+.education p{
+  padding-left: 50px;
+  color: white;
+}
+
+.education div{
+  padding-bottom: 30px;
+}
+
+.skills{
+  background-color: white;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.skills h2{
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+}
+
+.line{
+  height: 4px;
+  width: 100%;
+  background-color: black;
+}
+
+.works{
+  background-color: white;
+}
+
+.works h2{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.works h3{
+  font-size: 20px;
+}
+
+.works p{
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+
+
+.persons img{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.persons{
+  background-color: black;
+}
+
+.persons p{
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.last{
+  background: #8FBC8F;
+  padding: 40PX;
+}
+
+.last h2{
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.social{
+  padding-top: 30px;
+  background: #8FBC8F;
+  float: right;
+}
+
+footer{
+  background: #8FBC8F;
+}
+
+/* For xs device: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media (min-width: 375px) {
+  /* For phone: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media (min-width: 1366px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .right{padding-left: 300px;}
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.fa{
+  padding: 5px;
+  font-size: 40px;
+}
+
+.imgzoom:hover {
+  transition: transform .2s;
+  transform: scale(1.2);
+}
